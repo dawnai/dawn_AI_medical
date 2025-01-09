@@ -148,28 +148,28 @@ export default {
   data() {
     return {
       tableData: [{
-        date: '2016-05-02',
+        date: '2023-05-02',
         name: '王小虎',
         dataname: 'ImageFolder',
         state: '正常',
         info: '图像数据集',
         color: 'success'
       }, {
-        date: '2016-05-02',
+        date: '2023-05-02',
         name: 'Dawn',
         dataname: 'CustomData',
         state: '正常',
         info: '图像数据集',
         color: 'success'
       }, {
-        date: '2016-05-02',
+        date: '2023-05-02',
         name: 'moud',
         dataname: 'SVHN',
         state: '禁用',
         info: '图像数据集',
         color: 'danger'
       }, {
-        date: '2016-05-02',
+        date: '2023-05-02',
         name: '小贾',
         dataname: 'ImageFolder',
         state: '审核中',

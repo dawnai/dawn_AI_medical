@@ -155,7 +155,7 @@
                 <el-row>
                     <el-col :span="12">
                         <el-card style="margin: 0px 5px;">
-                            <h1>训练总览</h1>
+                            <h1>报告总览</h1>
                             <training></training>
                         </el-card>
 
@@ -180,28 +180,28 @@ export default {
     data() {
         return {
             tableData: [{
-                date: '2022-05-02',
+                date: '2023-05-02',
                 name: 'GKMNet',
                 modelType: 'UNet',
                 mission: '去模糊',
                 modelObject: 'img',
                 modelInfo: '1.3M'
             }, {
-                date: '2022-05-12',
+                date: '2023-05-12',
                 name: 'LIIF',
                 modelType: '迭代滤波器',
                 mission: '去模糊',
                 modelObject: 'img',
                 modelInfo: '220M'
             }, {
-                date: '2022-09-02',
+                date: '2023-09-02',
                 name: 'SRGAN',
                 modelType: 'GAN',
                 mission: '超分辨',
                 modelObject: 'img',
                 modelInfo: '22.3M'
             }, {
-                date: '2022-09-12',
+                date: '2023-09-12',
                 name: 'DCGAN',
                 modelType: 'GAN',
                 mission: '染色标准化',
