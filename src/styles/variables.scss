@@ -1,0 +1,33 @@
+// sidebar
+$menuText:rgb(21, 20, 20); //侧边栏字体颜色
+$menuActiveText:rgb(245,72,138);    //侧边栏激活时 字体颜色
+$subMenuActiveText:rgb(245,72,138); //https://github.com/ElemeFE/element/issues/12951
+// 医疗颜色采用马卡龙配色
+// 75、165、215
+// 126 192 232
+// 159 210 244
+// 239 173 1
+// 246 218 123
+
+
+
+$menuBg: rgb(249, 251, 252);//侧边栏背景颜色
+$menuHover:rgb(246,218,123); //鼠标选中时的颜色
+
+$subMenuBg:rgb(232, 234, 236);//二级菜单栏颜色
+$subMenuHover:rgb(246,218,123);//选中二级菜单栏颜色
+
+$sideBarWidth: 210px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}
